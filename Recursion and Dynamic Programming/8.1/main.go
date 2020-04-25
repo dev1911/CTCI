@@ -20,7 +20,7 @@ func main(){
 	cache = make(map[int]int)
 	cache[1] = 1
 	cache[2] = 2
-	cache[3] = 3
+	cache[3] = 4
 	n:=1000
 	fmt.Printf("Number of ways to reach %d steps is %d\n" , n , noOfStepsCached(n , cache))
 }
